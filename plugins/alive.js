@@ -33,7 +33,7 @@ Module({
   var buttons = [{
     urlButton: {
         displayText: 'Github',
-        url: 'https://github.com/souravkl11/raganork'
+        url: 'https://github.com/Private-bot'
     }
 }, {
   urlButton: {
@@ -47,7 +47,7 @@ Module({
     }
 }, {
     quickReplyButton: {
-        displayText: 'All commands',
+        displayText: 'Help',
         id: 'commands'+myid
     }  
 }, {
@@ -78,22 +78,11 @@ if (setarr[i].use === 'utility') {
   utilmsg += `┃❉│ ${Math.floor(parseInt(i)+1)}. ${setarr[i].pattern.toString().match(/(\W*)([A-Za-zğüşıiöç1234567890 ]*)/)[2]} \n`
 }
 }
-  var menu = `╭═══〘 ${BOT_INFO.split(";")[0]} 〙═══⊷❍
+  var menu = `╭═══〘 𝐁𝐦𝐬 𝐁𝐨𝐭© 〙═══⊷❍
 ┃❉╭──────────────
-┃❉│
-┃❉│ Owner : ${BOT_INFO.split(";")[1]}
-┃❉│ User : ${message.senderName}
-┃❉│ Mode : ${MODE}
-┃❉│ Server : ${config.HEROKU.APP_NAME}
-┃❉│ Total RAM: ${total}
-┃❉│ Available RAM: ${used}
-┃❉│ Disk Space: 620 GB
-┃❉│ Version: ${config.VERSION}
-┃❉│
-┃❉│
-┃❉│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
-┃❉│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
-┃❉│   ${BOT_INFO.split(";")[0]}
+┃❉│𝐇𝐞𝐥𝐥𝐨 𝐭𝐡𝐞𝐫𝐞 (●’◡’●)ﾉ 𝐈 𝐚𝐦 𝐁𝐦𝐬 𝐁𝐨𝐭
+┃❉│𝐚𝐧𝐝 𝐭𝐡𝐨𝐬𝐞 𝐚𝐫𝐞 𝐦𝐲 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬               ┃❉│𝐢𝐟 𝐲𝐨𝐮 𝐡𝐚𝐯𝐞 𝐚𝐧𝐲 
+┃❉│𝐢𝐬𝐬𝐮𝐞𝐬 𝐫𝐞𝐩𝐨𝐫𝐭 𝐭𝐨 𝐦𝐲 𝐨𝐰𝐧𝐞𝐫𝐬
 ┃❉│ 
 ┃❉╰───────────────
 ╰═════════════════⊷
@@ -127,8 +116,12 @@ ${edmsg}
 ┃❉│ 
 ${srmsg}
 ┃❉╰─────────────────
-╰══════════════════⊷❍`
-return await message.sendImageTemplate(await skbuffer(BOT_INFO.split(";")[3]),FancyRandom(menu),"All rights reserved "+BOT_INFO.split(";")[0],buttons);
+╰══════════════════⊷❍
+    ▎▍▌▌▉▏▎▌▉▐▏▌▎
+    ▎▍▌▌▉▏▎▌▉▐▏▌▎
+   ☯︎𝐁𝐦𝐬 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐁𝐨𝐭
+═══════════════════⊷❍`
+return await message.sendImageTemplate(await skbuffer [3]),FancyRandom(menu),"All rights reserved [0],buttons);
 }))
 Module({
   pattern: 'alive',
